@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC090C251F1F2B0E001E444C /* dahlia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC090C211F1F2AB7001E444C /* dahlia.jpg */; };
+		DC090C261F1F2B12001E444C /* hydrangea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC090C221F1F2AB7001E444C /* hydrangea.jpg */; };
+		DC090C271F1F2B12001E444C /* iris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC090C231F1F2AB7001E444C /* iris.jpg */; };
+		DC090C281F1F2B12001E444C /* lily.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC090C201F1F2AB7001E444C /* lily.jpg */; };
+		DC090C291F1F2B12001E444C /* orchid2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC090C241F1F2AB7001E444C /* orchid2.jpg */; };
+		FA2905CC1F0E2E8D004D7343 /* flowers.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA2905CB1F0E2E79004D7343 /* flowers.txt */; };
+		FA2905D11F0F185A004D7343 /* FlowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2905CF1F0E3FF3004D7343 /* FlowerCell.swift */; };
+		FA3429851F0DF83E0012547F /* orchid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3429841F0DF83E0012547F /* orchid.jpg */; };
+		FA3429871F0DF8440012547F /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3429861F0DF8440012547F /* rose.jpg */; };
+		FA3429891F0DF84C0012547F /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3429881F0DF84B0012547F /* sunflower.jpg */; };
+		FA9290081F03A71700DAA31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9290071F03A71700DAA31D /* AppDelegate.swift */; };
+		FA92900A1F03A71700DAA31D /* FlowerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9290091F03A71700DAA31D /* FlowerDetailsViewController.swift */; };
+		FA92900D1F03A71700DAA31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA92900B1F03A71700DAA31D /* Main.storyboard */; };
+		FA9290121F03A71700DAA31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9290101F03A71700DAA31D /* LaunchScreen.storyboard */; };
+		FA92901C1F03A85F00DAA31D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92901B1F03A85F00DAA31D /* UIImageExtension.swift */; };
+		FA9C377D1F0E2BE30037FD7C /* FlowerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C377C1F0E2BE30037FD7C /* FlowerCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC090C201F1F2AB7001E444C /* lily.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lily.jpg; sourceTree = "<group>"; };
+		DC090C211F1F2AB7001E444C /* dahlia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dahlia.jpg; sourceTree = "<group>"; };
+		DC090C221F1F2AB7001E444C /* hydrangea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hydrangea.jpg; sourceTree = "<group>"; };
+		DC090C231F1F2AB7001E444C /* iris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iris.jpg; sourceTree = "<group>"; };
+		DC090C241F1F2AB7001E444C /* orchid2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orchid2.jpg; sourceTree = "<group>"; };
+		FA2905CB1F0E2E79004D7343 /* flowers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = flowers.txt; sourceTree = "<group>"; };
+		FA2905CF1F0E3FF3004D7343 /* FlowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCell.swift; sourceTree = "<group>"; };
+		FA3429841F0DF83E0012547F /* orchid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orchid.jpg; sourceTree = "<group>"; };
+		FA3429861F0DF8440012547F /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+		FA3429881F0DF84B0012547F /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
+		FA9290041F03A71700DAA31D /* FlowerClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9290071F03A71700DAA31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA9290091F03A71700DAA31D /* FlowerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailsViewController.swift; sourceTree = "<group>"; };
+		FA92900C1F03A71700DAA31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9290111F03A71700DAA31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9290131F03A71700DAA31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA92901B1F03A85F00DAA31D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FA9C377C1F0E2BE30037FD7C /* FlowerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9290011F03A71700DAA31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA34298A1F0DF8550012547F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC090C211F1F2AB7001E444C /* dahlia.jpg */,
+				DC090C221F1F2AB7001E444C /* hydrangea.jpg */,
+				DC090C231F1F2AB7001E444C /* iris.jpg */,
+				DC090C201F1F2AB7001E444C /* lily.jpg */,
+				DC090C241F1F2AB7001E444C /* orchid2.jpg */,
+				FA3429841F0DF83E0012547F /* orchid.jpg */,
+				FA3429861F0DF8440012547F /* rose.jpg */,
+				FA3429881F0DF84B0012547F /* sunflower.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA928FFB1F03A71700DAA31D = {
+			isa = PBXGroup;
+			children = (
+				FA9290061F03A71700DAA31D /* FlowerClassifier */,
+				FA9290051F03A71700DAA31D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9290051F03A71700DAA31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9290041F03A71700DAA31D /* FlowerClassifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9290061F03A71700DAA31D /* FlowerClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				FA2905CB1F0E2E79004D7343 /* flowers.txt */,
+				FA9290071F03A71700DAA31D /* AppDelegate.swift */,
+				FA9C377C1F0E2BE30037FD7C /* FlowerCollectionViewController.swift */,
+				FA9290091F03A71700DAA31D /* FlowerDetailsViewController.swift */,
+				FA2905CF1F0E3FF3004D7343 /* FlowerCell.swift */,
+				FA92901B1F03A85F00DAA31D /* UIImageExtension.swift */,
+				FA92900B1F03A71700DAA31D /* Main.storyboard */,
+				FA9290101F03A71700DAA31D /* LaunchScreen.storyboard */,
+				FA9290131F03A71700DAA31D /* Info.plist */,
+				FA34298A1F0DF8550012547F /* Images */,
+			);
+			path = FlowerClassifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9290031F03A71700DAA31D /* FlowerClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9290161F03A71700DAA31D /* Build configuration list for PBXNativeTarget "FlowerClassifier" */;
+			buildPhases = (
+				FA0BEEC81F0DD312004F2341 /* Generate flowers.txt */,
+				FA9290001F03A71700DAA31D /* Sources */,
+				FA9290011F03A71700DAA31D /* Frameworks */,
+				FA9290021F03A71700DAA31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerClassifier;
+			productName = FlowerClassifier;
+			productReference = FA9290041F03A71700DAA31D /* FlowerClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA928FFC1F03A71700DAA31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = edu.self;
+				TargetAttributes = {
+					FA9290031F03A71700DAA31D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = FA928FFF1F03A71700DAA31D /* Build configuration list for PBXProject "FlowerClassifier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA928FFB1F03A71700DAA31D;
+			productRefGroup = FA9290051F03A71700DAA31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9290031F03A71700DAA31D /* FlowerClassifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9290021F03A71700DAA31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3429871F0DF8440012547F /* rose.jpg in Resources */,
+				DC090C291F1F2B12001E444C /* orchid2.jpg in Resources */,
+				DC090C281F1F2B12001E444C /* lily.jpg in Resources */,
+				FA9290121F03A71700DAA31D /* LaunchScreen.storyboard in Resources */,
+				DC090C251F1F2B0E001E444C /* dahlia.jpg in Resources */,
+				FA3429851F0DF83E0012547F /* orchid.jpg in Resources */,
+				DC090C271F1F2B12001E444C /* iris.jpg in Resources */,
+				FA2905CC1F0E2E8D004D7343 /* flowers.txt in Resources */,
+				FA3429891F0DF84C0012547F /* sunflower.jpg in Resources */,
+				FA92900D1F03A71700DAA31D /* Main.storyboard in Resources */,
+				DC090C261F1F2B12001E444C /* hydrangea.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA0BEEC81F0DD312004F2341 /* Generate flowers.txt */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate flowers.txt";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ">${PROJECT_DIR}/${PROJECT_NAME}/flowers.txt\nfor FILE in ${PROJECT_DIR}/${PROJECT_NAME}/Images/*; do\n  echo $FILE | sed \"s/.*\\///\" >> ${PROJECT_DIR}/${PROJECT_NAME}/flowers.txt\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9290001F03A71700DAA31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA92900A1F03A71700DAA31D /* FlowerDetailsViewController.swift in Sources */,
+				FA9290081F03A71700DAA31D /* AppDelegate.swift in Sources */,
+				FA92901C1F03A85F00DAA31D /* UIImageExtension.swift in Sources */,
+				FA2905D11F0F185A004D7343 /* FlowerCell.swift in Sources */,
+				FA9C377D1F0E2BE30037FD7C /* FlowerCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA92900B1F03A71700DAA31D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA92900C1F03A71700DAA31D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9290101F03A71700DAA31D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9290111F03A71700DAA31D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9290141F03A71700DAA31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9290151F03A71700DAA31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9290171F03A71700DAA31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2QF97W78N;
+				INFOPLIST_FILE = FlowerClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FlowerClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9290181F03A71700DAA31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2QF97W78N;
+				INFOPLIST_FILE = FlowerClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.FlowerClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA928FFF1F03A71700DAA31D /* Build configuration list for PBXProject "FlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9290141F03A71700DAA31D /* Debug */,
+				FA9290151F03A71700DAA31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9290161F03A71700DAA31D /* Build configuration list for PBXNativeTarget "FlowerClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9290171F03A71700DAA31D /* Debug */,
+				FA9290181F03A71700DAA31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA928FFC1F03A71700DAA31D /* Project object */;
+}
